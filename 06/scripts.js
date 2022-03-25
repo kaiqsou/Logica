@@ -4,7 +4,7 @@
 
 */
 
-var custofabrica = parseInt("74000");
+var custofabrica = parseFloat(prompt("Digite o custo de fábrica"));
 var porcentagemrevendedor = custofabrica * 0.25;
 var imposto = custofabrica * 0.45;
 

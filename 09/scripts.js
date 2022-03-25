@@ -4,6 +4,6 @@
 
 */
 
-var f = parseFloat(prompt ("digite seu valor em Fahrenheits") );
-var c = (f -32) * 0.55;
-alert(f + " é igual a: " + c + "° Graus celsius");
+var fahrenheits = parseFloat(prompt ("Digite o valor em Fahrenheits (apenas números)") );
+var celsius = (fahrenheits -32) * 0.55;
+alert(fahrenheits + "°F é igual a: " + celsius + "° Graus celsius");

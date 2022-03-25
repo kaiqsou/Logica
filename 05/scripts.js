@@ -4,11 +4,11 @@
 
 */
 
-var nomeAluno = ("Douglas");
+var nomeAluno = prompt("Digite o seu nome");
 
-var notaum = parseInt("8");
-var notadois = parseInt("6");
-var notatres = parseInt("10");
+var notaum = parseFloat(prompt("Digite a nota 1"));
+var notadois = parseFloat(prompt("Digite a nota 2"));
+var notatres = parseFloat(prompt("Digite a nota 3"));
 
 var media = (notaum + notadois + notatres) / 3;
 

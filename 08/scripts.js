@@ -4,8 +4,8 @@
 
 */
 
-var c = parseFloat( prompt ( "digite a cotaçao do dolar atual") );
-var d = parseFloat( prompt ( "digite quantos dolares voce possui") );
-var dr = 1 * c ;
-var x = dr * d;
-alert("seus dolares equivalem a R$" + x);
+var cotacaoDolar = parseFloat(prompt("Digite a cotação do dólar atual"));
+var dolarPossuido = parseFloat(prompt("Digite quantos dólares voce possui"));
+var valorDolar = 1 * cotacaoDolar ;
+var valorReal = valorDolar * dolarPossuido;
+alert("Seus dólares equivalem a R$" + valorReal);

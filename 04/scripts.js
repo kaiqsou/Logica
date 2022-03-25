@@ -1,15 +1,10 @@
-/*
+// 4 - Considerando que para um consórcio, sabe-se o número total de prestações, a quantidade de prestações pagas e o valor atual da prestação, escreva um algoritmo que determine o total pago pelo consorciado e o saldo devedor.
 
-4 - Considerando que para um consórcio, sabe-se o número total de prestações, a quantidade de prestações pagas e o valor atual da prestação, escreva um algoritmo que determine o total pago pelo consorciado e o saldo devedor. 
+var valortotalPrestacoes = parseInt(prompt("Digite o valor total"));
+var totalPrestacoes = parseInt(prompt("Digite o total de prestações"));
+var pagasp = parseInt(prompt("Digite a quantidade de prestações pagas"));
+var valorat = valortotalPrestacoes / totalPrestacoes
+var aPagar = (totalPrestacoes - pagasp) * valorat
+var pagou = pagasp * valorat
 
-*/
-
-var numerodeparcelas = parseInt("60");
-var quantidadepaga = parseInt("24");
-var valordaparcela = parseInt("530");
-
-var saldopago = quantidadepaga * valordaparcela
-var saldoapagar = (numerodeparcelas - quantidadepaga) * valordaparcela
-
-alert("Saldo pago: " + saldopago + " reais");
-alert("Saldo a pagar: " + saldoapagar + " reais");
+alert("Você pagou R$" + pagou + " e deve R$" + aPagar);

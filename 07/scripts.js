@@ -4,9 +4,9 @@
 
 */
 
-var nomeVendedor = ("Marcelo");
-var salario = parseInt("2000");
-var vendas = parseInt("10000");
+var nomeVendedor = prompt("Digite o seu nome");
+var salario = parseFloat(prompt("Digite o seu salário fixo"));
+var vendas = parseFloat(prompt("Digite o valor total de suas vendas"));
 var comissao = vendas * 0.15;
 
 var salariofinal = salario + comissao;
