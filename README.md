@@ -1,2 +1,2 @@
-# Logica
-Atividades de Logica corrigidas 
+# Var/Alert
+Atividades de Logica sobre VAR e ALERT corrigidas.
